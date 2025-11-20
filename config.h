@@ -12,14 +12,15 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;        /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10" };
-static const char dmenufont[]       = "monospace:size=10";
-static const char col_bg[]      = "#1e1e1e";
-static const char col_bg1[]     = "#2b2b2b";
-static const char col_fg[]      = "#ffffff";
-static const char col_gray[]    = "#888888";
-static const char col_blue[]    = "#cccccc";
-static const char col_yellow[]  = "#ffffff";
+static const char *fonts[]          = { "IosevkaTerm Nerd Font:size=10" };
+static const char dmenufont[]       = "IosevkaTerm Nerd Font:size=10";
+// Ferra theme
+static const char col_bg[]      = "#2b292d";
+static const char col_bg1[]     = "#383539";
+static const char col_fg[]      = "#fecdb2";
+static const char col_gray[]    = "#4d424b";
+static const char col_blue[]    = "#ffa07a";
+static const char col_yellow[]  = "#f5d76e";
 
 static const char *colors[][3]      = {
     // fg         bg         border
